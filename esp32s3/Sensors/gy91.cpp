@@ -6,8 +6,8 @@
 #include <Adafruit_BMP280.h>
 
 #ifdef _ESP32_HAL_I2C_H_
-#define SDA_PIN 11
-#define SCL_PIN 12
+#define SDA_PIN 8
+#define SCL_PIN 9
 #endif
 
 Adafruit_BMP280 bme; // I2C
